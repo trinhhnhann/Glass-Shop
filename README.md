@@ -16,7 +16,9 @@ ENTY GLASSES is a web-based application designed to offer a seamless shopping ex
 - **Checkout**: Simple and intuitive checkout process.  
 
 #### **For Staff:**  
-- **Product Management**: Add, update, or delete glasses from the inventory.  
+- **Product Management**: Add, update, or delete glasses from the inventory.
+
+#### **For Manaher:**  
 - **User Management**: View and manage customer accounts, including updates and removals.  
 - **Order Monitoring**: Track and manage customer orders.  
 
