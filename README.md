@@ -31,6 +31,29 @@ ENTY GLASSES is a web-based application designed to offer a seamless shopping ex
 - **Database**: SQL Server  
 - **Development Tools**: Apache Tomcat, Git
 ---
+### **Getting Started**
+1. **Clone the repository**:  
+   ```bash
+   git clone <repository-url>
+2. **Set up the database**:
+   - Import the SQL JDBC library.
+   - Update your database configuration in the project's properties file (Class DBContext).
+3. **Run the application**:
+   - Open the project in your IDE (e.g., Netbeans, IntelliJ IDEA or Eclipse).
+   - Configure Apache Tomcat as the application server.
+   - Deploy and access the app at `http://localhost:<port>/`.
+4. **Default User, Admin, Manager Account**:
+   - User:
+   - **UserID**: `US01`
+   - **Password**: `123456`
+   - Admin:
+   - **UserID**: `AD01`
+   - **Password**: `123456`
+   - Manager
+   - **UserID**: `MG01`
+   - **Password**: `123456`
+
+---
 ### See more in ENTY GLASS REPORT.pdf
 
 ## Copyright
