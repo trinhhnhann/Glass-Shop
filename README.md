@@ -1,7 +1,7 @@
 # Glass-Shop (ENTY GLASSES)
 
 ### **Project Overview**  
-ENTY GLASSES a small project belongs to subject PRJ301 of FPT University.
+ENTY GLASSES is a small project belongs to subject PRJ301 of FPT University.
 ENTY GLASSES is a web-based application designed to offer a seamless shopping experience for fashionable glasses catering to both men and women. Built using the **MVC** architecture with **Servlet**, **JSP**, and **SQL Server**, the platform allows users to browse and purchase glasses, while providing staff with tools to manage products and user accounts efficiently.  
 
 ---
