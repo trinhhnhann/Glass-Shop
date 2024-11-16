@@ -43,15 +43,15 @@ ENTY GLASSES is a web-based application designed to offer a seamless shopping ex
    - Configure Apache Tomcat as the application server.
    - Deploy and access the app at `http://localhost:<port>/`.
 4. **Default User, Admin, Manager Account**:
-   - User:
-   - **UserID**: `US01`
-   - **Password**: `123456`
-   - Admin:
-   - **UserID**: `AD01`
-   - **Password**: `123456`
-   - Manager
-   - **UserID**: `MG01`
-   - **Password**: `123456`
+   - **User**:
+   - UserID: `US01`
+   - Password: `123456`
+   - **Admin**:
+   - UserID: `AD01`
+   - Password: `123456`
+   - **Manager**
+   - UserID: `MG01`
+   - Password: `123456`
 
 ---
 ### See more in ENTY GLASS REPORT.pdf
