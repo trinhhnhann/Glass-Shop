@@ -28,4 +28,6 @@ ENTY GLASSES is a web-based application designed to offer a seamless shopping ex
 - **Database**: SQL Server  
 - **Development Tools**: Apache Tomcat, Git  
 
-© TrinhNhan
+## Copyright
+
+© 2024 TrinhNhan.
