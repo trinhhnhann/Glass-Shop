@@ -1,0 +1,328 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2024, 12:12:53 AM
+    Author     : nhana
+*/
+
+/* General body styling */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.head{
+    display: flex;
+    margin-top: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headsearch img{
+    width: 70px;
+    height: auto;
+    align-items: center;
+}
+.headact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head img{
+    width: 70px;
+    height: auto;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: 300px; 
+    margin-bottom:  20px;
+}
+
+.headname{
+    text-align: center;
+}
+.headname h2{
+    color: #497466;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.headname a{
+    text-decoration: none;
+}
+.headname h2:hover{
+    text-decoration: none;
+    color: #6EAF99;
+}
+
+.headact [type="submit"]{
+    text-decoration: none;
+    font-weight: 600; 
+    border: none; 
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.headsearch{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Main content styling */
+ 
+.int{
+    margin-top: 100px;
+}
+.int img{
+    width: 650px;
+    height: auto;
+    margin-left: 30px;
+}
+ 
+.int .des h2{
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.int .des p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.int .des [type="submit"]{
+    width: 20%;
+    padding: 10px;
+    background-color: #497466;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin: 10px 0;
+}
+.int .des [type="submit"]:hover {
+    background-color: #356251;
+}
+
+.int .des{
+    margin-top: 170px;
+}
+/* Vouchers */
+.vouchers{
+    margin-top: 100px;
+    display: flex;
+}
+.vouchers .left{
+    justify-content: center;
+} 
+.vouchers .left h2{
+    font-weight: 700;
+    color:#CB7D8B;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.vouchers .right{
+    margin-top: 25px;
+}
+.vouchers .left img{
+    width: 300px;
+    margin-left: 100px
+}
+.vouchers .right h1{
+    color:#F2A557;
+    font-family: 'Copperplate', fantasy, sans-serif;
+}
+.vouchers .right p{
+    font-size: 20px;
+}
+
+/* Features section styling */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.features div {
+    width: 30%;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.features div img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.features div h4 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #497466;
+    font-weight: 600;
+}
+
+.features div p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/* Product section styling */
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.products div {
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.products div img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.products div button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;    
+}
+
+.products div button:hover {
+    background-color: rgba(158, 201, 187, 0.5);
+}
+
+.products div button p{
+    color: #497466;
+    font-family: 'Copperplate', fantasy, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.products .name{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.footer h6{
+    color:black;
+    font-weight: 600;
+}
+
+.footer p{
+    color:black;
+}
+
+.bg-body-tertiary{
+    background-color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer [type="submit"]{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: black;
+}
+.navbar {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content input {
+    width: 100%;
+    padding: 12px 16px;
+    margin: 0;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+}
+.dropdown-content input:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #ffffff;
+}
+.dropbtn {
+    background-color: #F8F9FA;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.dropbtn:hover {
+    background-color: white;
+}
+
+.navb{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
